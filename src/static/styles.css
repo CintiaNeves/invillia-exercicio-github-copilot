@@ -81,22 +81,32 @@ section h3 {
   color: #1a237e;
 }
 
-.activity-card ol {
-  margin: 10px auto;
-  padding-left: 10px; /* Reduzido de 20px para 10px */
-  border-left: 3px solid #1a237e;
-  background-color: #f9f9f9;
-  border-radius: 5px;
-  padding: 10px;
-  list-style: decimal inside;
+.participant-list {
+  margin: 15px auto;
+  padding: 15px;
+  border-left: 4px solid #1a237e;
+  background-color: #f0f4f8;
+  border-radius: 8px;
+  list-style: none;
   max-width: 90%;
 }
 
-.activity-card ol li {
-  margin-bottom: 5px;
+.participant-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
   color: #333;
   font-size: 14px;
-  line-height: 1.4;
+  line-height: 1.6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.participant-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .form-group {
