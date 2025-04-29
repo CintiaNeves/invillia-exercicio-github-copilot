@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+   font-family: Arial, sans-serif;
 }
 
 body {
@@ -72,6 +72,41 @@ section h3 {
 
 .activity-card p {
   margin-bottom: 8px;
+}
+
+.activity-card p strong {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #1a237e;
+}
+
+.participant-list {
+  margin: 15px auto;
+  padding: 15px;
+  border-left: 4px solid #1a237e;
+  background-color: #f0f4f8;
+  border-radius: 8px;
+  list-style: none;
+  max-width: 90%;
+}
+
+.participant-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.participant-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .form-group {
